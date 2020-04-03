@@ -29,8 +29,8 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com/</uri>
 						<muleVersion>4.2.2</muleVersion>
-						<username>${username}</username>
-						<password>${password}</password>
+						<username>AnilBawneAPRIL1</username>
+						<password>Rajaram94@</password>
 						<applicationName>jenkinpoc</applicationName>
 						<environment>DEV</environment>
 						<properties>
