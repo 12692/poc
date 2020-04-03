@@ -2,4 +2,13 @@
 
 <mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd"></mule>
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="jenkinpocFlow" doc:id="995bbf42-8c36-4fe3-af5c-07382ab3819c" >
+		<scheduler doc:name="Scheduler" doc:id="7e52a4d6-7a7f-45d6-a594-52df88eb68b8" >
+			<scheduling-strategy >
+				<fixed-frequency />
+			</scheduling-strategy>
+		</scheduler>
+		<logger level="INFO" doc:name="Logger" doc:id="e44a6df4-c473-4517-98c3-9e235c1204ff" message="logger : 1"/>
+	</flow>
+</mule>
