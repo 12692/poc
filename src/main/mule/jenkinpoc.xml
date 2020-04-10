@@ -13,6 +13,7 @@
 		<logger level="INFO" doc:name="Logger" doc:id="1d2f33cd-fa2a-4beb-8c38-6ab0e146bd93" message="logger : 2"/>
 		<logger level="INFO" doc:name="Logger" doc:id="084bb0df-6666-4240-b927-51d1c4b69daa" message="logger : 3"/>
 		<logger level="INFO" doc:name="Logger" doc:id="cb60b978-002a-4ce7-a78e-69ba7bf90334" message="logger : 4"/>
+		<logger level="INFO" doc:name="Logger" doc:id="6846a506-4bf4-458b-9e64-4fc7575b0bd5" message="logger : 5"/>
 
 	</flow>
 </mule>
